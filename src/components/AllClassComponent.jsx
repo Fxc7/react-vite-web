@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
-import { allClass } from '../assets/js/index.js';
+import profile from '../../config.profile.js';
 
 import FaqComponent from './FaqComponent.jsx';
 
@@ -11,14 +11,14 @@ const AllClassComponent = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <h1 className="fw-bold text-center">All Class Results.</h1>
+                            <h1 className="fw-bold text-center">All Classes Results.</h1>
                             <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </Col>
                     </Row>
                     <Row>
                         {
-                            allClass.map((element) => (
-                                <Col key={element.id} className="shadow rounded">
+                            profile.allClass.map((element) => (
+                                <Col key={element.id} className="shadow rounded" data-aos="fade-up" data-aos-anchor-placement="up-center" data-aos-duration="1000" data-aos-delay={element.delay}>
                                     <img src={element.image} alt={element.title} className="mb-5 rounded-top" />
                                     <div className="star mb-2 px-3">
                                         <i className={element.star1}></i>

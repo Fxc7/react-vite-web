@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Button, Container, Form, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
-import { navLinks } from '../assets/js/index.js';
+import profile from '../../config.profile.js';
 
 const NavbarComponent = () => {
   const [changeColor, setChangeColor] = useState(false);
@@ -27,7 +27,7 @@ const NavbarComponent = () => {
           <Navbar.Brand href="/">
             <div className="d-flex align-items-center font-righteous fs-3 fw-bold">
               <img className="navbar-logo" src="/icon-navbar.png" />
-              <span className="ms-2">Xcoders.</span>
+              <span className="ms-2 animate__animated animate__bounceInDown">{profile.navbar_title}</span>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-false" />
@@ -35,7 +35,7 @@ const NavbarComponent = () => {
             <Navbar.Offcanvas id="offcanvasNavbar-expand-false" aria-labelledby="offcanvasNavbarLabel-expand-false" placement="end">
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title className="font-righteous fs-3 fw-bold" id="offcanvasNavbarLabel-expand-false">
-                  xcoders teams
+                  {profile.sidebar_title}
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -45,7 +45,7 @@ const NavbarComponent = () => {
                 </Form>
                 <Nav className="me-auto mx-auto text-center my-2 my-lg-0" navbarScroll>
                   {
-                    navLinks.map((element) => (
+                    profile.navLinks.map((element) => (
                       <div className="nav-link" key={element.id}>
                         <NavLink to={element.path} className={({ isActive, isPending }) =>
                           isPending ? "pending" : isActive ? "active" : ""

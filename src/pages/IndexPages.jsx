@@ -1,18 +1,24 @@
 import ClassPages from './ClassPages.jsx';
-import SwiperPages from './SwiperPages.jsx';
 import FaqPages from './FaqPages.jsx';
-import TosPages from './TosPages.jsx';
+import TermPages from './TermPages.jsx';
 import HomePages from './HomePages.jsx';
+
+import SwiperComponent from '../components/SwiperComponent.jsx';
 
 const IndexPages = () => {
     return (
-        <>
-            < HomePages />
-            < ClassPages />
-            < SwiperPages />
-            < FaqPages />
-            < TosPages />
-        </>
+        <div>
+            <HomePages />
+            <hr />
+            <ClassPages />
+            <hr />
+            <SwiperComponent />
+            <hr />
+            <FaqPages />
+            <hr />
+            <TermPages />
+            <hr />
+        </div>
     );
 };
 

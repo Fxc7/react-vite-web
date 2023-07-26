@@ -4,15 +4,17 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
-import { dataSwiper } from '../assets/js/index.js';
+import profile from '../../config.profile.js';
 
 const SwiperComponent = () => {
+    const windows = window.location.pathname.length !== 1;
     return (
-        <div className="testimonial py-5">
+        <div className={windows ? "swiper-page animate__animated animate__bounceInDown" : "swiper-page animate__animated animate__fadeInDown"}>
             <Container>
-                <Row>
+                <Row className="my-5">
                     <Col>
-                        <h1 className="text-center fw-bold my-5">Testimonial</h1>
+                        <h1 className="text-center fw-bold" data-aos="fade-down" data-aos-anchor-placement="up-center" data-aos-duration="1000">Testimonial</h1>
+                        <p className="text-center font-josefin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, est!</p>
                     </Col>
                 </Row>
                 <Row>
@@ -37,9 +39,9 @@ const SwiperComponent = () => {
                                 }
                             }} modules={[Pagination]} className="mySwiper">
                             {
-                                dataSwiper.map((element) => (
+                                profile.dataSwiper.map((element) => (
                                     <SwiperSlide key={element.id} className="shadow rounded-2">
-                                        <p className="description">{element.desc}</p>
+                                        <p className="description font-josefin">{element.desc}</p>
                                         <div className="people">
                                             <img src={element.image} alt={element.name} />
                                             <div>
