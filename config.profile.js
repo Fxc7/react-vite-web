@@ -13,7 +13,7 @@ export default {
         'facebook': 'FarhanXCode7',
         'twitter': 'FarhanXCode7',
         'youtube': '@FarhanXCode7',
-        'linkedin': 'ahmad-farhan',
+        'linkedin': 'farhanxcode7',
     },
     'navLinks': [
         {
@@ -45,7 +45,7 @@ export default {
     'allClass': [
         {
             id: 1,
-            image: "/src/assets/images/class/class-1.jpg",
+            image: "/images/class/class-1.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -58,7 +58,7 @@ export default {
         },
         {
             id: 2,
-            image: "/src/assets/images/class/class-2.jpg",
+            image: "/images/class/class-2.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -71,7 +71,7 @@ export default {
         },
         {
             id: 3,
-            image: "/src/assets/images/class/class-3.jpg",
+            image: "/images/class/class-3.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -84,7 +84,7 @@ export default {
         },
         {
             id: 4,
-            image: "/src/assets/images/class/class-4.jpg",
+            image: "/images/class/class-4.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -97,7 +97,7 @@ export default {
         },
         {
             id: 5,
-            image: "/src/assets/images/class/class-5.jpg",
+            image: "/images/class/class-5.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -110,7 +110,7 @@ export default {
         },
         {
             id: 6,
-            image: "/src/assets/images/class/class-6.jpg",
+            image: "/images/class/class-6.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -123,7 +123,7 @@ export default {
         },
         {
             id: 7,
-            image: "/src/assets/images/class/class-7.jpg",
+            image: "/images/class/class-7.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -136,7 +136,7 @@ export default {
         },
         {
             id: 8,
-            image: "/src/assets/images/class/class-8.jpg",
+            image: "/images/class/class-8.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -149,7 +149,7 @@ export default {
         },
         {
             id: 9,
-            image: "/src/assets/images/class/class-9.jpg",
+            image: "/images/class/class-9.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -162,7 +162,7 @@ export default {
         },
         {
             id: 10,
-            image: "/src/assets/images/class/class-10.jpg",
+            image: "/images/class/class-10.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -175,7 +175,7 @@ export default {
         },
         {
             id: 11,
-            image: "/src/assets/images/class/class-11.jpg",
+            image: "/images/class/class-11.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -188,7 +188,7 @@ export default {
         },
         {
             id: 12,
-            image: "/src/assets/images/class/class-12.jpg",
+            image: "/images/class/class-12.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -203,7 +203,7 @@ export default {
     'ClassNew': [
         {
             id: 1,
-            image: "/src/assets/images/class/class-1.jpg",
+            image: "/images/class/class-1.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -216,7 +216,7 @@ export default {
         },
         {
             id: 2,
-            image: "/src/assets/images/class/class-2.jpg",
+            image: "/images/class/class-2.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -229,7 +229,7 @@ export default {
         },
         {
             id: 3,
-            image: "/src/assets/images/class/class-3.jpg",
+            image: "/images/class/class-3.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -242,7 +242,7 @@ export default {
         },
         {
             id: 4,
-            image: "/src/assets/images/class/class-4.jpg",
+            image: "/images/class/class-4.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -255,7 +255,7 @@ export default {
         },
         {
             id: 5,
-            image: "/src/assets/images/class/class-5.jpg",
+            image: "/images/class/class-5.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -268,7 +268,7 @@ export default {
         },
         {
             id: 6,
-            image: "/src/assets/images/class/class-6.jpg",
+            image: "/images/class/class-6.jpg",
             star1: "fa-solid fa-star",
             star2: "fa-solid fa-star",
             star3: "fa-solid fa-star",
@@ -284,63 +284,63 @@ export default {
         {
             id: 1,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-1.jpg",
+            image: "/images/testimonial/people-1.jpg",
             name: "People 1",
             skill: "UI UX Designer",
         },
         {
             id: 2,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-2.jpg",
+            image: "/images/testimonial/people-2.jpg",
             name: "People 2",
             skill: "Flutter Developer",
         },
         {
             id: 3,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-3.jpg",
+            image: "/images/testimonial/people-3.jpg",
             name: "People 3",
             skill: "Web Developer",
         },
         {
             id: 4,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-1.jpg",
+            image: "/images/testimonial/people-1.jpg",
             name: "People 4",
             skill: "UI UX Designer",
         },
         {
             id: 5,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-2.jpg",
+            image: "/images/testimonial/people-2.jpg",
             name: "People 5",
             skill: "Flutter Developer",
         },
         {
             id: 6,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-3.jpg",
+            image: "/images/testimonial/people-3.jpg",
             name: "People 6",
             skill: "Web Developer",
         },
         {
             id: 7,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-1.jpg",
+            image: "/images/testimonial/people-1.jpg",
             name: "People 7",
             skill: "UI UX Designer",
         },
         {
             id: 8,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-2.jpg",
+            image: "/images/testimonial/people-2.jpg",
             name: "People 8",
             skill: "Flutter Developer",
         },
         {
             id: 9,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-3.jpg",
+            image: "/images/testimonial/people-3.jpg",
             name: "People 9",
             skill: "Web Developer",
         },
@@ -349,42 +349,42 @@ export default {
         {
             id: 1,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-1.jpg",
+            image: "/images/testimonial/people-1.jpg",
             name: "People 1",
             skill: "UI UX Designer",
         },
         {
             id: 2,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-2.jpg",
+            image: "/images/testimonial/people-2.jpg",
             name: "People 2",
             skill: "Flutter Developer",
         },
         {
             id: 3,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-3.jpg",
+            image: "/images/testimonial/people-3.jpg",
             name: "People 3",
             skill: "Web Developer",
         },
         {
             id: 4,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-1.jpg",
+            image: "/images/testimonial/people-1.jpg",
             name: "People 4",
             skill: "UI UX Designer",
         },
         {
             id: 5,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-2.jpg",
+            image: "/images/testimonial/people-2.jpg",
             name: "People 5",
             skill: "Flutter Developer",
         },
         {
             id: 6,
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-            image: "/src/assets/images/testimonial/people-3.jpg",
+            image: "/images/testimonial/people-3.jpg",
             name: "People 6",
             skill: "Web Developer",
         },

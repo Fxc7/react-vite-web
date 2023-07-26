@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import heroImage from '../assets/images/hero.png';
+import images from '../assets/images/hero.png';
 
 const HomeComponent = () => {
     const navigate = useNavigate();
@@ -19,7 +19,7 @@ const HomeComponent = () => {
                             <button className="btn btn-outline-danger btn-lg rounded-1 mb-xs-0 mb-2 fw-bold animate__animated animate__bounceInUp animate__delay-1s" onClick={() => window.open('https://github.com/Fxc7/react-vite-web', '_blank')}>Source Code</button>
                         </Col>
                         <Col lg="6" className="pt-lg-0 pt-5">
-                            <img src={heroImage} alt="hero images" className="animate__animated animate__bounceInUp animate__delay-1s" />
+                            <img src={images} alt="hero images" className="animate__animated animate__bounceInUp animate__delay-1s" />
                         </Col>
                     </Row>
                 </Container>
